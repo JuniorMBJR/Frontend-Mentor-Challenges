@@ -1,0 +1,99 @@
+:root {
+    --color-primary1: hsl(225, 100%, 94%);
+    --color-primary2: hsl(245, 75%, 52%);
+    --color-neutral1: hsl(225, 100%, 98%);
+    --color-neutral2: hsl(224, 23%, 55%);
+    --color-neutral3: hsl(223, 47%, 23%);
+}
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    justify-content: center;
+    background-color: rgb(208, 230, 230);
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    margin: 1.5em auto 2.3em;
+    background-color: var(--color-neutral1);
+    width: 25vw;
+    height: 88vh;
+    border-radius: 1em;
+}
+
+.img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    color:var(--color-neutral3);
+    margin-top: 1.4em;
+    margin-bottom: .1em;
+}
+
+.description {
+    text-align: center;
+    color: var(--color-neutral2);
+    font-size: .98rem;
+    width: 80%;
+}
+
+.container-price {
+    display: flex;
+    align-items: center;
+    padding: .8rem;
+    background-color: rgb(240, 242, 245);
+    width: 75%;
+    height: 10%;
+    border-radius: 1em;
+    margin-bottom: 1.5em;
+}
+
+.logo {
+    border-radius: 10em;
+    margin-right: 1em;
+}
+
+.title-price {
+    color: var(--color-neutral3);
+    font-size: .9em;
+    font-weight: 900;
+}
+
+.price {
+    font-size: .9em;
+    color: var(--color-neutral2);
+    margin-top: -.8em;
+}
+
+.change {
+    margin-left: 4.7em;
+    font-size: .8rem;
+    color: var(--color-primary2);
+    font-weight: 600;
+}
+
+.button {
+    background-color: var(--color-primary2);
+    width: 84%;
+    padding: .7rem;
+    border-radius: .7em;
+    color: var(--color-neutral1);
+    font-weight: 700;
+    font-size: .9em;
+    border-style: none;
+}
+
+.cancel {
+    margin-top: 1.3em;
+    color: var(--color-neutral2);
+    font-size: .9em;
+    font-weight: 700;
+    text-decoration: none;
+}
